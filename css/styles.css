@@ -1,1 +1,5 @@
-body{background-image:url("../images/h_img.jpg");}
+#Home{background-image:url("../images/h_img.jpg");}
+#About{background-image:url("../images/s_image.jpg");}
+#contact{
+    background-image: url("../images/c_image.jpg");
+}
