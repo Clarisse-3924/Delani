@@ -13,7 +13,7 @@
                 <div class="home">
                     <div><img src="images/logo.png">
                     </div>
-                    <div class="head">
+                    <div class="paragraph">
                         <h2>WELCOME</h2>
                         <h2>TO DELANI STUDIO</h2>
                         <h15>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS</h15>
@@ -29,7 +29,7 @@
                     <div>
                         <h1> ABOUT US</h1>
                     </div>
-                    <div>
+                    <div class="paragraph">
                         <p>when you work with us you are a part of a  team of committed collaborators. All aspects of software developement process are intergrated interactive and agile.
                          </p>
 <p>Our approach unities design developement, and product management to create expectional products.</p>
@@ -42,7 +42,7 @@
                     <div>
                         <h1>SERVICES</h1>
                     </div>
-                    <div>
+                    <div class="paragraph">
                         <p>Before we sign a contract or write a line of code our team will spend a neccessary time needed to understand your product vision .</p>
                         <p>The outcame of this spacing session is a proposed or high level statement of work</p>
                         <p>Based on your requirement we can provide accomplete offering or just the pieces you need. </p>
@@ -55,9 +55,15 @@
     <h1>WHAT WE DO</h1>
 </div>
 <div class="Icon">
-<div><img src="images/design_icon.png"></div>
-<div><img src="images/dev_icon.png"></div>
-<div><img src="images/product_icon.png"></div>
+<div><img src="images/design_icon.png">
+<p id="center"> Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+    Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p></div>
+<div><img src="images/dev_icon.png">
+<p id="center"> All engineers are fluent in the latest enterprise, mobile and web development technologies.
+    They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p></div>
+<div><img src="images/product_icon.png">
+<p id="center">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+    This iterative process allows for changes as business requirements evolve.</p></div>
 </div>
 </section>  
 <section class="portfolio">
@@ -82,12 +88,14 @@
 <div>
     <h1>CONTACT US</h1>
 </div>
-<form>
-    <label><input type="text" id="name" placeholder="Name..."></label>
-    <label><input type="text" id="email" placeholder="Email..."></label>
-    <label><input type="textbox" id="comment" placeholder="Your Message here..."></label>
+<div class=paragraph>
+<form class="form-group">
+    <label><input type="text" id="name" placeholder="Name..." class="form-control"></label>
+    <label><input type="text" id="email" placeholder="Email..." class="form-control"></label><br>
+    <label><textarea  id="comment" placeholder="Your Message here..." rows="8" cols="40" class="form-control"></textarea></label>
 
 </form>
+</div>
     </div>
 
 </section>
