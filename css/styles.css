@@ -33,8 +33,13 @@
   #center{
     display:none;
     text-align:center;
-
-  }
+    width:300px;}
+    
+    #design{display: flex;
+      flex-direction:column;
+       justify-content:space-evenly;
+       text-align:center;}
+  
   .paragraph{
    display: flex;
     flex-direction:column;
