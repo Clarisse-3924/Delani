@@ -30,6 +30,11 @@
       width: 100%;
       height: 100%;
   }
+  #center{
+    display:none;
+    text-align:center;
+
+  }
   .paragraph{
    display: flex;
     flex-direction:column;
