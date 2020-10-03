@@ -8,3 +8,12 @@
       
       background-color: blue;
   }
+  
+    h1{text-align:center;}
+
+  .Icon{
+    display: flex;
+    flex-direction:row;
+     justify-content:space-evenly;
+     padding: 20px;
+  }
