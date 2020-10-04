@@ -1,20 +1,27 @@
-body, html {
-  height: 100%;
-}
 #home{
     background: url(../images/h_img.jpg) no-repeat center;
     background-size: cover;
     height: 100%;
     color:white;
    
+   
+  }
+  placeholder{color:white;}
+  
+ .form-control{
+    background: none;
+    color:white;
+  
   }
  #service{
      background:url(../images/s_image.jpg)no-repeat;
      color:white;
+     padding:40px;
  }
  .contact{
   background:url(../images/c_image.jpg)no-repeat;
-  margin-top: auto;
+  margin-top:0.5%;
+  color:white;
  }
  .margin{
    margin-bottom: 90%;
@@ -35,6 +42,11 @@ body, html {
       text-align:center;
     width:300px;
     }
+    .portfolio{
+      width: auto;
+      margin-top: 0%;
+      margin-left:0px;
+    }
 
   .Icon{
     display: flex;
@@ -42,17 +54,9 @@ body, html {
      justify-content:space-evenly;
      padding: 20px;
   }
-  .partone{
-    display: flex;
-    flex-direction:row;
-     justify-content:space-evenly;
-  }
-  .secondpart{
-    display: flex;
-    flex-direction:row;
-     justify-content:space-evenly;
-     padding: 20px;
-  }
+  h2{justify-content: center;
+    align-items: center;
+    text-align: center;}
   .port{
       width: 100%;
       height: 100%;
@@ -103,11 +107,26 @@ body, html {
 
     .work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8{
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 60%;
+      left: 60%;
       transform: translate(-50%, -50%);
       background-color: white;
       padding: 15%;
+      opacity: 0.6;
       display: none;
       }
-  
+      #work1,#work2,#work3,#work4,#work5,#work6,#work7,#work8{
+        width: 100%;
+        padding-top: 1%;
+      }
+  .social{
+    justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .info{
+    justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size:5;
+  }
