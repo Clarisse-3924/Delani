@@ -83,6 +83,9 @@
     align-items: center;
     text-align: center;
     margin-top: 26px;}
+    .s{
+      font-size:20px;
+    }
     .positionlogo{
       justify-content: center;
     align-items: center;
@@ -103,6 +106,7 @@
       align-items: center;
       text-align: center;
     }
+    #font{font-size: 10px;}
 
 
     .work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8{
@@ -130,3 +134,7 @@
       text-align: center;
       font-size:5;
   }
+  .about{
+    font-size:10px;
+  }
+  h1{font-size: 20px;}
