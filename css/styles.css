@@ -19,6 +19,21 @@ body, html {
    margin-bottom: 90%;
  }
     h1{text-align:center;}
+    .icon2{
+      display: none;
+      text-align:center;
+    width:300px;
+    }
+    #icon1{
+      display: none;
+      text-align:center;
+    width:300px;
+    }
+    #icon3{
+      display: none;
+      text-align:center;
+    width:300px;
+    }
 
   .Icon{
     display: flex;
