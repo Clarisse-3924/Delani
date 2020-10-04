@@ -1,8 +1,13 @@
+body, html {
+  height: 100%;
+}
 #home{
-    height: 100vh;
-    min-height: 500px;
     background: url(../images/h_img.jpg) no-repeat center;
     background-size: cover;
+    height: 100%;
+    color:white;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
  #service{
      background:url(../images/s_image.jpg)no-repeat;
@@ -47,3 +52,8 @@
      padding: 20px;
      text-align:center;
   }
+  .logo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 35%;}
